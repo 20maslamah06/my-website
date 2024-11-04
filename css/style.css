@@ -5,7 +5,7 @@
     font-weight: normal;
 }
 .container {
-    background-color: #f0f0f0;
+    background-color:whitesmoke;
     width: 100%;
     /* margin: top, right, bottom, left; */
     /* margin: x, y; */
@@ -13,3 +13,32 @@
     /* padding: x, y; */
     margin: 0 auto;
     padding: 10px;
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+    align-content:center;  
+}
+.navigation li {
+    display: inline;
+    margin-right: 20px;
+}
+.navigation li a {
+    text-decoration:none ;
+    color: #333;
+}
