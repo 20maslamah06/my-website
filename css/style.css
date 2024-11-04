@@ -1,0 +1,19 @@
+
+/*id selector */
+#users {
+    background: red;
+}
+table {
+    width: 100%;
+}
+
+/* element selector */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* class selector */
+.users-table {
+    background-color: rgb(17, 87, 17);
+}
